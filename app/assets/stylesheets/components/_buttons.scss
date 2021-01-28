@@ -1,0 +1,47 @@
+.btn-enter {
+  text-align: center;
+  background-color: pink;
+  color: white;
+  width: 140px;
+  height: 40px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border-radius: 4px;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #f56f86;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.btn-homepage {
+  background-color: #B332AA;
+  border: 1px solid rgb(255, 255, 98);
+  padding: 16px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  animation: btn-fade-in 1s 2s forwards;
+  opacity: 0;
+  &:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 98);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@keyframes btn-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
