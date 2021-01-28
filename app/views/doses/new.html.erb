@@ -1,4 +1,5 @@
 <div class="container">
+  <h1 class="text-center"><%= @cocktail.name.split.map(&:capitalize).join(' ') %></h1>
   <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.input :description, label: "Measurement" %>
   <%= f.association :ingredient %>

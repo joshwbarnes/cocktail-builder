@@ -6,7 +6,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
 url = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 
 serialized_ingredients = open(url).read
@@ -34,3 +33,4 @@ puts 'Creating cocktails...'
 end
 
 puts "Cocktails done!"
+

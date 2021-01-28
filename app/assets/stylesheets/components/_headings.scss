@@ -8,14 +8,12 @@
 }
 
 .page-title {
-  font-size: 8rem;
-  color: rgb(255, 255, 98);
-  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  font-family: "Bardon Demo";
-  max-width: 80%;
+  font-size: 4rem;
+  color: #ffffff;
+  font-family: "Roboto";
   padding-left: 8px;
 
-  animation: text-move 1s 1.5s forwards;
+  animation: text-move 1s 1s forwards;
 }
 
 @keyframes text-move {

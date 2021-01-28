@@ -1,8 +1,8 @@
 <div class="container">
-  <h1>What are you waiting for?</h1>
+  <h1>Create your own</h1>
   <%= simple_form_for @cocktail do |f| %>
   <%= f.input :name %>
-  <%= f.input :description %>
+  <%= f.input :review, label: "Method" %>
   <%= link_to 'Cancel', root_path, class: 'text-danger mr-2' %>
   <%= f.submit "Add Cocktail", class: 'btn btn-primary' %>
   <% end %>
